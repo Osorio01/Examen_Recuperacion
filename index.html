@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="lib/Hosted_Libreries.js"></script>
+    <link rel="icon" href="img/icono2.jpg">
+    <title>Last.Fm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/boots/dist/css/bootstrap.css">
+  </head>
+  <body>
+  <div class="container-fluyed Fondo1">
+    <h1 class="titulo">Last Fm</h1>
+  </div>
+  <div class="container-fluyed Fondo2">
+    <body ng-controller="Listado">
+      <div ng-repeat="y in Musica"></div>
+      <div class="divInfo">
+        <img src="{{y.data.sprites.front_default}}">
+      </div>
+    </body>
+  </div>
+  <script src="lib/Angular.js"></script>
+  <script src="js/script.js"></script>
+  <script src="lib/Hosted_Libreries.js"></script>
+  </body>
+</html>
